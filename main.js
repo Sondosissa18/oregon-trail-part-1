@@ -30,7 +30,7 @@ Wagon.prototype = {
   },
   join: function (traveler) {
     if (this.passengers.length < this.capacity) {
-      this.passengers.push("traveler");
+      this.passengers.push(traveler);
     }
   },
   shouldQuarantine: function () {
